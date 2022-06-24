@@ -84,7 +84,7 @@ class Helper:
                 'text': '\n\n'.join(texts)
             },
             'at': {
-                'isAtAll': True
+                'isAtAll': False
             }
         }
         Notification.handle_request(url, data, 'dd')
